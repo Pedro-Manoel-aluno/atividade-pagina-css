@@ -50,6 +50,7 @@ table, th, td {border: 2px solid #3185ea}
 table {border-collapse: collapse;
        margin: 20px auto;
        width: 90%;
+       max-width: 800px;
       }
 
 table tr:has(td) {transition: all 0.2s ease-in-out;
