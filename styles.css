@@ -1,0 +1,107 @@
+body {min-height: 100vh; 
+    margin: 0;
+      
+      background: linear-gradient(135deg, #bfcce3, #81abf6);
+
+      color: black; 
+    font-family: sans-serif;
+     }
+
+h1 {background-color: #d4d7e3;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   }
+
+h2 {margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    padding: 0 50px
+   }
+
+p {max-width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 30px 10px;
+  }
+
+img {display: block;
+     margin: 30px auto;
+     width: 300px;
+     height: 200px;
+     object-fit: cover;
+     border-radius: 8px;
+     transition: transform 0.3s ease;
+    }
+
+img:hover 
+
+    {transform: scale(1.12);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+     cursor: pointer;
+    }
+
+table, th, td {border: 2px solid #3185ea}
+
+table {border-collapse: collapse;}
+
+table tr:has(td) {transition: all 0.2s ease-in-out;
+                  cursor: pointer;
+                  }
+table tr:has(td):hover {background-color: #dcaa57;
+                        color: #ffffff;
+                        box-shadow: 0 4px 15px rgba(0, 255, 135, 0.4);
+                        transform: scale(1.04);
+                        border-radius: 2px;
+                       }
+
+th, td {width: 25%;
+            word-break: break-word;
+            padding: 12px;
+            text-align: center;}
+
+nav {
+    background-color: #43a8ee;
+    border: 1px solid #43a8ee;
+    padding: 24px;
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+    }
+
+nav a {
+
+    display: inline-block;
+    min-width: 180px;
+    padding: 15px 25px;
+    margin: 10px;
+
+    background-color: #2ba9d8;
+    border: 2px solid #2ba9d8;
+    border-radius: 8px;
+
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+     }
+
+nav a:hover {
+    border-color: #00ff87;
+    color: #00ff87;
+    transform: scale(1.09);
+    box-shadow: 0 8px 25px rgba(57, 232, 65, 0.4);
+     }
+
+nav p {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    padding-bottom: 15px;
+      }
+
+
+  
