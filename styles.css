@@ -47,16 +47,17 @@ img:hover
 
 table, th, td {border: 2px solid #3185ea}
 
-table {border-collapse: collapse;}
+table {border-collapse: collapse;
+       margin: 20px auto;
+       width: 90%;
+      }
 
 table tr:has(td) {transition: all 0.2s ease-in-out;
                   cursor: pointer;
                   }
 table tr:has(td):hover {background-color: #dcaa57;
                         color: #ffffff;
-                        box-shadow: 0 4px 15px rgba(0, 255, 135, 0.4);
                         transform: scale(1.04);
-                        border-radius: 2px;
                        }
 
 th, td {width: 25%;
